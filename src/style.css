@@ -1,0 +1,87 @@
+body {
+  background-color: #121214;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.area-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202024;
+  width: 400px;
+  height: auto;
+  padding: 40px 30px;
+  border-radius: 5px;
+}
+
+.login h1 {
+  padding-bottom: 30px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login input {
+  margin-top: 10px;
+  background: #121214;
+  color: #fff;
+  border: none;
+  height: 50px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0px 1em 0px 2.65em;
+}
+
+.login button {
+  font-family: 'Poppins', sans-serif;
+  background: #8257E6;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: bold;
+  color: #fff;
+  height: 50px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all 0.3s ease;
+
+  cursor: pointer;
+}
+
+.login button:hover {
+  filter: brightness(130%);
+}
+
+.cadastrar {
+  font-size: 14px;
+}
+
+.cadastrar a {
+  font-weight: 600;
+  color: #8257E6;
+  opacity: 0.8;
+  transition: opacity 0.1s ease 0s;
+}
+
+.cadastrar a:hover {
+  opacity: 1;
+}
+
+/* #8257E6 #121214 #04D361 */
