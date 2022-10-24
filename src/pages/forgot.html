@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="../styles/style.css">
 
   <title>ATP PUCPR</title>
 </head>
@@ -16,18 +16,15 @@
   <section class="container">
     <div class="login">
       <div>
-        <h1>Login ATP - PUCPR</h1>
+        <h1 class="forgot">Recuperar senha</h1>
       </div>
 
       <form>
-        <input type="text" name="nome" placeholder="E-mail" autofocus>
-        <input type="password" name="senha" placeholder="Senha">
+        <input class="forgot" type="text" name="nome" placeholder="Digite o seu e-mail" autofocus>
 
-        <p class="cadastrar"><a href="./pages/forgot.html" class="cadastrar">Esqueci a senha</a></p>
-
-        <button type="submit" href="./pages/main.html">Entrar</button>
+        <button type="submit">Recuperar</button>
       </form>
-      <p class="cadastrar">Ainda não é registrado? <a href="./pages/signup.html">Criar uma conta</a></p>
+      <p class="cadastrar" id="return"><a href="../index.html">Voltar</a></p>
     </div>
   </section>
 </body>

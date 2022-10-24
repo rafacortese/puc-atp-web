@@ -9,11 +9,12 @@ a {
   text-decoration: none;
 }
 
-.area-login {
+.container {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
+
 }
 
 .login {
@@ -21,10 +22,13 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #202024;
-  width: 400px;
   height: auto;
+  width: 400px;
   padding: 40px 30px;
   border-radius: 5px;
+
+  animation: transitionIn 3s;
+
 }
 
 .login h1 {
@@ -53,12 +57,12 @@ a {
 }
 
 .login input:focus {
-  border-color: #8257E6;
+  border-color: #8257e6;
 }
 
 .login button {
   font-family: 'Poppins', sans-serif;
-  background: #8257E6;
+  background: #8257e6;
   border-radius: 5px;
   border: 0px;
   font-weight: bold;
@@ -89,6 +93,33 @@ a {
 
 .cadastrar a:hover {
   opacity: 1;
+}
+
+.forgot-title {
+  margin-bottom: -15px;
+}
+
+.forgot {
+  margin-bottom: 10px;
+}
+
+.forgot-container {
+  background: transparent;
+}
+
+#return {
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+
+@keyframes transitionIn {
+  from {
+    transform: 400px
+  }
+
+  to {
+    transform: 800px
+  }
 }
 
 /* #8257E6 #121214 #04D361 */
